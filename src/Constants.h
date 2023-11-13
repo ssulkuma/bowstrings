@@ -7,16 +7,16 @@ const int 	WINDOW_HEIGHT =720;
 const int 	FRAMERATE = 60;
 
 // Physics
-const float GRAVITY = 180.0f;
+const float GRAVITY = 30.0f;
 const float VELOCITY = -230.0f;
 const float MAX_SPEED = 40.f;
 const float ACCELERATION = 500.0f;
 const float FRICTION = 15.f;
 
 // Player
-const float PLAYER_HEIGHT = 60.0f;
-const float PLAYER_WIDTH = 40.0f;
-const float PLAYER_SPEED = 155.0f;
+const float PLAYER_HEIGHT = 320.0f;
+const float PLAYER_WIDTH = 280.0f;
+const float PLAYER_SPEED = 100.0f;
 const float PLAYER_JUMP = 0.7f;
 
 // Targets

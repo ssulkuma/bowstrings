@@ -47,6 +47,14 @@ void    Game::handleKeyEvents(sf::Event::KeyEvent key)
         player.movePlayer(key.code, deltatime);
 }
 
+void    Game::handleMousePressEvents()
+{
+    if (game_state == GAMESTATE_PLAY)
+    {
+        player.state = SHOOT_RIGHT;
+    }
+}
+
 // Handles mouse click events.
 void    Game::handleMouseClickEvents()
 {
@@ -64,9 +72,7 @@ void    Game::handleMouseClickEvents()
         if (back.state == HOVER)
             game_state = GAMESTATE_MENU;
     if (game_state == GAMESTATE_PLAY)
-    {
-
-    }
+        player.state = STAND;
 }
 
 // Hadles mouse hover events.
@@ -94,6 +100,9 @@ void    Game::handleEvents(sf::Event &event)
             break;
         case sf::Event::MouseButtonReleased:
             handleMouseClickEvents();
+            break;
+        case sf::Event::MouseButtonPressed:
+            handleMousePressEvents();
             break;
         default:
             break;
@@ -150,15 +159,16 @@ bool    Game::renderMenu()
 // Renders the actual game.
 void    Game::renderGameplay()
 {
+    window.draw(background);
     player.updatePlayer(deltatime);
-    std::cout << "X " << player.body.getPosition().x << " Y " << player.body.getPosition().y << "\n";
     player.drawPlayer(window);
 }
 
 // Renders the paused game.
 void    Game::renderPause()
 {
-
+    window.draw(background);
+    player.drawPlayer(window);
 }
 
 // Renders the menu instructions screen.
@@ -234,7 +244,7 @@ void    Game::render()
             renderMenu();
             break;
         case GAMESTATE_PLAY:
-            // Set the window view to follow the player
+            // Set the player view to follow the player
             view.setCenter(sf::Vector2f(player.body.getPosition().x, WINDOW_HEIGHT / 2));
             window.setView(view);
             renderGameplay();

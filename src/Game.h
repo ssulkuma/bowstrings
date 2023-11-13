@@ -51,6 +51,7 @@ public:
     // Game window and state
     sf::RenderWindow    window;
     sf::View            view;
+    sf::View            player_view;
     int                 game_state;
     std::string         assetPath;
 
@@ -92,6 +93,7 @@ private:
     // Event handling functions
     void    handleMouseClickEvents();
     void    handleMouseHoverEvents();
+    void    handleMousePressEvents();
     void    handleKeyEvents(sf::Event::KeyEvent key);
 
     // Rendering functions
