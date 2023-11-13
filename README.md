@@ -9,20 +9,20 @@ Jump – Shift</br>
 Shoot – Hold down left mouse click to charge the bow, shoot on release</br>
 
 ❏ Assets</br>
-	&emsp;&emsp;❏ Menu background</br>
-  &emsp;&emsp;❏ Menu buttons idle</br>
-  &emsp;&emsp;❏ Menu buttons hover </br>
-  &emsp;&emsp;❏ Game background </br>
+	&emsp;&emsp;✓ Menu background</br>
+  &emsp;&emsp;✓ Menu buttons idle</br>
+  &emsp;&emsp;❏ Menu buttons hover</br>
+  &emsp;&emsp;✓ Game background</br>
   &emsp;&emsp;❏ Game over background</br>
-	&emsp;&emsp;❏ Player idle </br>
-  &emsp;&emsp;❏ Player walking </br>
-  &emsp;&emsp;❏ Player shooting</br>
+	&emsp;&emsp;✓ Player idle</br>
+  &emsp;&emsp;✓ Player walking</br>
+  &emsp;&emsp;✓ Player shooting</br>
 	&emsp;&emsp;❏ Platform</br>
-	&emsp;&emsp;❏ Target</br>
+	&emsp;&emsp;✓ Target</br>
 	&emsp;&emsp;❏ Target hit</br>
-	&emsp;&emsp;❏ Arrow</br>
+	&emsp;&emsp;✓ Arrow</br>
 	&emsp;&emsp;❏ Arrow hit</br>
-	&emsp;&emsp;❏ Level end</br>
+	&emsp;&emsp;✓ Level end</br>
 ❏ Add game states</br>
 	&emsp;&emsp;❏ Menu</br>
 	&emsp;&emsp;❏ Gameplay</br>
