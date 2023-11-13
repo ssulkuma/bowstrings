@@ -24,19 +24,19 @@ Shoot – Hold down left mouse click to charge the bow, shoot on release</br>
 	&emsp;&emsp;❏ Arrow hit</br>
 	&emsp;&emsp;✓ Level end</br>
 ❏ Add game states</br>
-	&emsp;&emsp;❏ Menu</br>
-	&emsp;&emsp;❏ Gameplay</br>
+	&emsp;&emsp;✓ Menu</br>
+	&emsp;&emsp;✓ Gameplay</br>
 	&emsp;&emsp;❏ Pause</br>
 	&emsp;&emsp;❏ Game Over</br>
 ❏ Menu buttons and background</br>
-	&emsp;&emsp;❏ Add background</br>
-	&emsp;&emsp;❏ Add buttons</br>
-	&emsp;&emsp;❏ Hover effect on buttons</br>
+	&emsp;&emsp;✓ Add background</br>
+	&emsp;&emsp;✓ Add buttons</br>
+	&emsp;&emsp;✓ Hover effect on buttons</br>
 ❏ Game</br>
 	&emsp;&emsp;❏ Add background</br>
 	&emsp;&emsp;❏ Move screen with player</br>
 ❏ Audio</br>
-	&emsp;&emsp;❏ Background music</br>
+	&emsp;&emsp;✓ Background music</br>
 	&emsp;&emsp;❏ Menu buttons hover sound</br>
 	&emsp;&emsp;❏ Weapon shooting sound</br>
 	&emsp;&emsp;❏ Target hit sound</br>
