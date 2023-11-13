@@ -6,7 +6,28 @@ The game is a platformer and the idea of the game is to reach the level end whil
 
 Move left and right – A / D</br>
 Jump – Space</br>
-Shoot – Hold down left mouse click to charge the bow, shoot on release</br>
+Shoot – Hold down left mouse click to charge the bow, shoot on release (incomplete currently)</br>
+
+## How to generate project files
+
+### Visual Studio 2022
+One you have the project cloned to your PC.  Open a command prompt and from the source code directory run:
+`cmake -B./build -G"Visual Studio 17 2022"`
+
+Open `platformer_test.sln` from `/build`
+
+### Visual Studio 2019
+One you have the project cloned to your PC.  Open a command prompt and from the source code directory run:
+`cmake -B./build -G"Visual Studio 16 2019"`
+
+Open `platformer_test.sln` from `/build`
+
+### XCode
+One you have the project cloned to your MAC.  Open a terminal and from the source code directory run:
+`cmake -B./build -GXcode`
+
+Open `platformer_test.xcodeproj` from `/build`
+You'll also have to select `Platformer` from the project selection dropdown menu in XCsode.
 
 ❏ Assets</br>
 	&emsp;&emsp;✓ Menu background</br>
@@ -72,4 +93,5 @@ Shoot – Hold down left mouse click to charge the bow, shoot on release</br>
 ❏ Fix bugs</br>
 
 Credits</br>
-Audio // https://pixabay.com/users/sergequadrado-24990007/
+Audio // https://pixabay.com/users/sergequadrado-24990007/</br>
+Font // https://www.fontspace.com/a-adulsa-script-font-f53443
