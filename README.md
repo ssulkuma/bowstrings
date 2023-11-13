@@ -70,3 +70,6 @@ Shoot – Hold down left mouse click to charge the bow, shoot on release</br>
 	&emsp;&emsp;❏ Enemy AI</br>
 	&emsp;&emsp;❏ Enemy kill</br>
 ❏ Fix bugs</br>
+
+Credits
+Audio // https://pixabay.com/users/sergequadrado-24990007/
