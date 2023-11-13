@@ -5,7 +5,7 @@ Gameplay</br>
 The game is a platformer and the idea of the game is to reach the level end while shooting the targets on the way.
 
 Move left and right – A / D</br>
-Jump – Shift</br>
+Jump – Space</br>
 Shoot – Hold down left mouse click to charge the bow, shoot on release</br>
 
 ❏ Assets</br>
@@ -28,7 +28,7 @@ Shoot – Hold down left mouse click to charge the bow, shoot on release</br>
 	&emsp;&emsp;✓ Gameplay</br>
 	&emsp;&emsp;❏ Pause</br>
 	&emsp;&emsp;❏ Game Over</br>
-❏ Menu buttons and background</br>
+✓ Menu buttons and background</br>
 	&emsp;&emsp;✓ Add background</br>
 	&emsp;&emsp;✓ Add buttons</br>
 	&emsp;&emsp;✓ Hover effect on buttons</br>
@@ -71,5 +71,5 @@ Shoot – Hold down left mouse click to charge the bow, shoot on release</br>
 	&emsp;&emsp;❏ Enemy kill</br>
 ❏ Fix bugs</br>
 
-Credits
+Credits</br>
 Audio // https://pixabay.com/users/sergequadrado-24990007/
